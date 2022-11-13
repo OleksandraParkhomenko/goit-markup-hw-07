@@ -1,0 +1,32 @@
+.section-team {
+    background-color: rgba(245, 244, 250, 1);
+  }
+  .team__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 10px;
+  }
+  
+  .team__position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 0px;
+    color: rgba(117, 117, 117, 1);
+  }
+  
+  .team__card {
+    background-color: var(--primary-white-color);
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team__name {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+  }
+   

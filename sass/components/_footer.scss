@@ -1,0 +1,94 @@
+.footer {
+    background-color: rgba(47, 48, 58, 1);
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+  }
+  .footer-contacts__list{
+    color: var(--primary-white-color);
+    text-decoration: none;
+    margin-bottom: 9px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+        color: var(--accent-color);
+      }
+  }
+  .footer-conctacts {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+  .footer__logo--white {
+    color: var(--primary-white-color);
+  }
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+  .footer-link__subtitle {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  .social-links__footer{ margin-right: 93px;}
+  .footer-info {
+    display: flex;
+    align-items: baseline;
+  }
+  .main-link {
+    fill: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .footer-link {
+    margin-left: 70px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+  }
+  .color{color: rgba(255, 255, 255, 0.6);}
+  
+  .input-footer {
+    width: 358px;
+    height: 50px;
+    padding: 12px 16px;
+    margin-right: 12px;
+    background: rgba(47, 48, 58, 1);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus{border-color: rgba(33, 150, 243, 1);}
+    &::placeholder{color:rgba(255, 255, 255, 0.6) ;
+        font-size: 16px;
+        line-height: 20px;}
+  }
+  .form-button{
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    padding: 10px 28px;
+  }
+  .subscribe {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: auto;
+  }
+  .form-button__icon{ 
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    }
